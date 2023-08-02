@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class Tile {
+    public BufferedImage image;
+    public boolean collision=false;
+
+}
+
+class TileManager {
+    Tile MissingTile;
+
+    private final int NUMBER_OF_TILES=27;
+    GamePanel gp;
+    public Tile [] tile;
+    public int MapTileNum[][];
+    public TileManager(GamePanel gp)
+
+    public void getTileImage()
+
+    public void draw(Graphics2D g2)
+
+
+    public void loadMap()
+    }
+
+@enduml
